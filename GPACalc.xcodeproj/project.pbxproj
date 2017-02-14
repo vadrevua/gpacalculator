@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		485C90821E4CDF9E003E6E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C90811E4CDF9E003E6E45 /* AppDelegate.swift */; };
-		485C90841E4CDF9E003E6E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C90831E4CDF9E003E6E45 /* ViewController.swift */; };
 		485C90871E4CDF9E003E6E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C90851E4CDF9E003E6E45 /* Main.storyboard */; };
 		485C90891E4CDF9E003E6E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C90881E4CDF9E003E6E45 /* Assets.xcassets */; };
 		485C908C1E4CDF9E003E6E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C908A1E4CDF9E003E6E45 /* LaunchScreen.storyboard */; };
+		4885106F1E4F8CD10054F860 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 488510671E4F8CD10054F860 /* app-icon.png */; };
+		488510701E4F8CD10054F860 /* chalkboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 488510681E4F8CD10054F860 /* chalkboard.png */; };
+		488510711E4F8CD10054F860 /* GPA Calc Title Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 488510691E4F8CD10054F860 /* GPA Calc Title Text.png */; };
+		488510721E4F8CD10054F860 /* grade_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885106A1E4F8CD10054F860 /* grade_a.png */; };
+		488510731E4F8CD10054F860 /* grade_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885106B1E4F8CD10054F860 /* grade_b.png */; };
+		488510741E4F8CD10054F860 /* grade_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885106C1E4F8CD10054F860 /* grade_c.png */; };
+		488510751E4F8CD10054F860 /* grade_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885106D1E4F8CD10054F860 /* grade_d.png */; };
+		488510761E4F8CD10054F860 /* grade_f.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885106E1E4F8CD10054F860 /* grade_f.png */; };
+		48A3237B1E52A55500E0E747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C90831E4CDF9E003E6E45 /* ViewController.swift */; };
+		48E692771E4F97760035309A /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E692761E4F97760035309A /* add.png */; };
+		48E693E61E4FA0900035309A /* SquareDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48E693E51E4FA0900035309A /* SquareDisplay.ttf */; };
+		48E693E81E4FA8150035309A /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E693E71E4FA8150035309A /* eraser.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		485C90881E4CDF9E003E6E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		485C908B1E4CDF9E003E6E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		485C908D1E4CDF9E003E6E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488510671E4F8CD10054F860 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		488510681E4F8CD10054F860 /* chalkboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chalkboard.png; sourceTree = "<group>"; };
+		488510691E4F8CD10054F860 /* GPA Calc Title Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPA Calc Title Text.png"; sourceTree = "<group>"; };
+		4885106A1E4F8CD10054F860 /* grade_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_a.png; sourceTree = "<group>"; };
+		4885106B1E4F8CD10054F860 /* grade_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_b.png; sourceTree = "<group>"; };
+		4885106C1E4F8CD10054F860 /* grade_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_c.png; sourceTree = "<group>"; };
+		4885106D1E4F8CD10054F860 /* grade_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_d.png; sourceTree = "<group>"; };
+		4885106E1E4F8CD10054F860 /* grade_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_f.png; sourceTree = "<group>"; };
+		48E692761E4F97760035309A /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		48E693E51E4FA0900035309A /* SquareDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SquareDisplay.ttf; sourceTree = "<group>"; };
+		48E693E71E4FA8150035309A /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				485C90801E4CDF9E003E6E45 /* GPACalc */,
+				488510661E4F8CD10054F860 /* Image resources */,
 				485C907F1E4CDF9E003E6E45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,8 +83,26 @@
 				485C90881E4CDF9E003E6E45 /* Assets.xcassets */,
 				485C908A1E4CDF9E003E6E45 /* LaunchScreen.storyboard */,
 				485C908D1E4CDF9E003E6E45 /* Info.plist */,
+				48E693E51E4FA0900035309A /* SquareDisplay.ttf */,
 			);
 			path = GPACalc;
+			sourceTree = "<group>";
+		};
+		488510661E4F8CD10054F860 /* Image resources */ = {
+			isa = PBXGroup;
+			children = (
+				48E692761E4F97760035309A /* add.png */,
+				48E693E71E4FA8150035309A /* eraser.png */,
+				488510671E4F8CD10054F860 /* app-icon.png */,
+				488510681E4F8CD10054F860 /* chalkboard.png */,
+				488510691E4F8CD10054F860 /* GPA Calc Title Text.png */,
+				4885106A1E4F8CD10054F860 /* grade_a.png */,
+				4885106B1E4F8CD10054F860 /* grade_b.png */,
+				4885106C1E4F8CD10054F860 /* grade_c.png */,
+				4885106D1E4F8CD10054F860 /* grade_d.png */,
+				4885106E1E4F8CD10054F860 /* grade_f.png */,
+			);
+			path = "Image resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +165,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488510761E4F8CD10054F860 /* grade_f.png in Resources */,
+				48E693E81E4FA8150035309A /* eraser.png in Resources */,
+				48E693E61E4FA0900035309A /* SquareDisplay.ttf in Resources */,
+				488510701E4F8CD10054F860 /* chalkboard.png in Resources */,
 				485C908C1E4CDF9E003E6E45 /* LaunchScreen.storyboard in Resources */,
+				48E692771E4F97760035309A /* add.png in Resources */,
+				488510751E4F8CD10054F860 /* grade_d.png in Resources */,
+				488510741E4F8CD10054F860 /* grade_c.png in Resources */,
+				488510731E4F8CD10054F860 /* grade_b.png in Resources */,
+				488510711E4F8CD10054F860 /* GPA Calc Title Text.png in Resources */,
 				485C90891E4CDF9E003E6E45 /* Assets.xcassets in Resources */,
+				4885106F1E4F8CD10054F860 /* app-icon.png in Resources */,
+				488510721E4F8CD10054F860 /* grade_a.png in Resources */,
 				485C90871E4CDF9E003E6E45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				485C90841E4CDF9E003E6E45 /* ViewController.swift in Sources */,
+				48A3237B1E52A55500E0E747 /* ViewController.swift in Sources */,
 				485C90821E4CDF9E003E6E45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +352,7 @@
 				485C90921E4CDF9E003E6E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
