@@ -154,8 +154,8 @@ class ViewController: UIViewController {
     let finalPercentInt = Int(finalPercent.text!)
     
 
-    
-    if(assignmentPercentInt! + midtermPercentInt! + finalPercentInt! == 100){
+    if(courseLabel1.text != courseTitle.text && courseLabel2.text != courseTitle.text && courseLabel3.text != courseTitle.text && courseLabel4.text != courseTitle.text){
+        if(assignmentPercentInt! + midtermPercentInt! + finalPercentInt! == 100){
     if(assignmentPointInt! <= assignmentMaxInt! && midtermPointInt! <= midtermMaxInt! && finalPointInt! <= finalMaxInt!){
         
         if(assignmentPointInt! >= 0 || assignmentMaxInt! >= 0 || midtermPointInt! >= 0 || midtermMaxInt! >= 0 || finalPointInt! >= 0 || finalMaxInt! >= 0 || assignmentPercentInt! >= 0 || midtermPercentInt! >= 0 || finalPercentInt! >= 0){
@@ -187,9 +187,6 @@ class ViewController: UIViewController {
         alert.addAction(cancelAction)
         present(alert, animated: true, completion: nil)
 }
-      
-        
-
     }
     else{
     let alert = UIAlertController(title: "Error", message: "Percents have to equal 100",preferredStyle: .alert)
@@ -198,7 +195,13 @@ class ViewController: UIViewController {
     present(alert, animated: true, completion: nil)
     }
     }
-
+    else{
+        let alert = UIAlertController(title: "Error", message: "Cannot add same course",preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alert.addAction(cancelAction)
+        present(alert, animated: true, completion: nil)
+    }
+    }
     
     
     

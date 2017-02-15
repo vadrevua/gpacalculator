@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8153689B522D5BBDA42C3DF2CAE82AAD622F5BBE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8153689B522D5BBDA42C3DF2CAE82AAD622F5BBE" : 9223372036854775807,
+    "1AA799B8C1313DB3542398A4D6F389000C1A040B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "11789BD5-2687-4601-8B14-41839A96789A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8153689B522D5BBDA42C3DF2CAE82AAD622F5BBE" : "GPACalc\/",
+    "1AA799B8C1313DB3542398A4D6F389000C1A040B" : "GPACalc\/GPACalc\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GPACalc",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GPACalc.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vadrevua\/GPACalc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AA799B8C1313DB3542398A4D6F389000C1A040B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vadrevua\/gpacalculator",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8153689B522D5BBDA42C3DF2CAE82AAD622F5BBE"
+    }
+  ]
+}

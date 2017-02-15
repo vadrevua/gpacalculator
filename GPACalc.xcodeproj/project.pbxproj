@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485B382F1E53DD0700097B67 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B382E1E53DD0700097B67 /* Untitled-1.png */; };
 		485C90821E4CDF9E003E6E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C90811E4CDF9E003E6E45 /* AppDelegate.swift */; };
 		485C90871E4CDF9E003E6E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C90851E4CDF9E003E6E45 /* Main.storyboard */; };
 		485C90891E4CDF9E003E6E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C90881E4CDF9E003E6E45 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485B382E1E53DD0700097B67 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
 		485C907E1E4CDF9E003E6E45 /* GPACalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPACalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C90811E4CDF9E003E6E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		485C90831E4CDF9E003E6E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		488510661E4F8CD10054F860 /* Image resources */ = {
 			isa = PBXGroup;
 			children = (
+				485B382E1E53DD0700097B67 /* Untitled-1.png */,
 				48E692761E4F97760035309A /* add.png */,
 				48E693E71E4FA8150035309A /* eraser.png */,
 				488510671E4F8CD10054F860 /* app-icon.png */,
@@ -171,6 +174,7 @@
 				488510701E4F8CD10054F860 /* chalkboard.png in Resources */,
 				485C908C1E4CDF9E003E6E45 /* LaunchScreen.storyboard in Resources */,
 				48E692771E4F97760035309A /* add.png in Resources */,
+				485B382F1E53DD0700097B67 /* Untitled-1.png in Resources */,
 				488510751E4F8CD10054F860 /* grade_d.png in Resources */,
 				488510741E4F8CD10054F860 /* grade_c.png in Resources */,
 				488510731E4F8CD10054F860 /* grade_b.png in Resources */,
