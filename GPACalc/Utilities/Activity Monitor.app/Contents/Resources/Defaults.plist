@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ShowCategoryAppsinLast12Hours</key>
+	<true/>
+	<key>UserColumnSortPerTab</key>
+	<dict>
+		<key>0</key>
+		<dict>
+			<key>sort</key>
+			<string>CPUUsage</string>
+			<key>direction</key>
+			<false/>
+		</dict>
+		<key>1</key>
+		<dict>
+			<key>sort</key>
+			<string>anonymousMemory</string>
+			<key>direction</key>
+			<integer>0</integer>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>sort</key>
+			<string>12HRPower</string>
+			<key>direction</key>
+			<integer>0</integer>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>sort</key>
+			<string>CPUUsage</string>
+			<key>direction</key>
+			<integer>0</integer>
+		</dict>
+		<key>4</key>
+		<dict>
+			<key>sort</key>
+			<string>txBytes</string>
+			<key>direction</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>UserColumnsPerTab v5.0</key>
+	<dict>
+		<key>0</key>
+		<array>
+			<string>Command</string>
+			<string>CPUUsage</string>
+			<string>CPUTime</string>
+			<string>Threads</string>
+			<string>IdleWakeUps</string>
+			<string>PID</string>
+			<string>UID</string>
+		</array>
+		<key>1</key>
+		<array>
+			<string>Command</string>
+			<string>anonymousMemory</string>
+			<string>compressedMemory</string>
+			<string>Threads</string>
+			<string>Ports</string>
+			<string>PID</string>
+			<string>UID</string>
+		</array>
+		<key>2</key>
+		<array>
+			<string>Command</string>
+			<string>PowerScore</string>
+			<string>12HRPower</string>
+			<string>AppSleep</string>
+			<string>graphicCard</string>
+			<string>powerAssertion</string>
+			<string>UID</string>
+		</array>
+		<key>3</key>
+		<array>
+			<string>Command</string>
+			<string>bytesWritten</string>
+			<string>bytesRead</string>
+			<string>Architecture</string>
+			<string>PID</string>
+			<string>UID</string>
+		</array>
+		<key>4</key>
+		<array>
+			<string>Command</string>
+			<string>txBytes</string>
+			<string>rxBytes</string>
+			<string>txPackets</string>
+			<string>rxPackets</string>
+			<string>PID</string>
+			<string>UID</string>
+		</array>
+	</dict>
+	<key>ProcessInfoToolbar v2</key>
+	<dict>
+		<key>allowedItemIdentifiers</key>
+		<array>
+			<string>NSToolbarSpaceItemIdentifier</string>
+			<string>LSToolbarTabs</string>
+			<string>LSToolbarQuitApplication</string>
+			<string>LSToolbarInspectItem</string>
+			<string>LSToolbarFilterItem</string>
+			<string>LSToolbarMarkItem</string>
+			<string>NSToolbarSeparatorItem</string>
+			<string>NSToolbarSpaceItem</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>NSToolbarCustomizeToolbarItem</string>
+			<string>NSToolbarPrintItem</string>
+			<string>LSToolbarSystemDiagnose</string>
+		</array>
+		<key>defaultItemIdentifiers</key>
+		<array>
+			<string>LSToolbarQuitApplication</string>
+			<string>LSToolbarInspectItem</string>
+			<string>LSToolbarSystemDiagnose</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>LSToolbarTabs</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>LSToolbarFilterItem</string>
+		</array>
+		<key>itemInfoByIdentifier</key>
+		<dict>
+			<key>LSToolbarInspectItem</key>
+			<dict>
+				<key>action</key>
+				<string>inspect:</string>
+				<key>imageName</key>
+				<string>NSGetInfo</string>
+				<key>label</key>
+				<string>Inspect</string>
+				<key>paletteLabel</key>
+				<string>Inspect</string>
+				<key>toolTip</key>
+				<string>9800</string>
+				<key>view</key>
+				<string>_toolbarGetInfo</string>
+			</dict>
+			<key>LSToolbarMarkItem</key>
+			<dict>
+				<key>action</key>
+				<string>markProcess:</string>
+				<key>imageName</key>
+				<string>Mark.tiff</string>
+				<key>label</key>
+				<string>Show Deltas</string>
+				<key>paletteLabel</key>
+				<string>Show/Hide Deltas</string>
+				<key>toolTip</key>
+				<string>Show (or hide) delta values as the process updates</string>
+			</dict>
+			<key>LSToolbarQuitApplication</key>
+			<dict>
+				<key>action</key>
+				<string>quitProcess:</string>
+				<key>imageName</key>
+				<string>NSToolbarStop</string>
+				<key>label</key>
+				<string>Quit Process</string>
+				<key>paletteLabel</key>
+				<string>Quit Process</string>
+				<key>toolTip</key>
+				<string>Force a process to quit</string>
+				<key>view</key>
+				<string>_toolbarForceQuit</string>
+			</dict>
+			<key>LSToolbarSample</key>
+			<dict>
+				<key>action</key>
+				<string>sample:</string>
+				<key>imageName</key>
+				<string>Sampler.tiff</string>
+				<key>label</key>
+				<string>Sample Process</string>
+				<key>paletteLabel</key>
+				<string>Sample Process</string>
+				<key>toolTip</key>
+				<string>Take a sample of a running process</string>
+			</dict>
+			<key>LSToolbarShowFilterItem</key>
+			<dict>
+				<key>label</key>
+				<string>Show</string>
+				<key>paletteLabel</key>
+				<string>Show</string>
+				<key>toolTip</key>
+				<string>Display processes in the category specified</string>
+				<key>view</key>
+				<string>_showPopup</string>
+			</dict>
+			<key>LSToolbarSpindump</key>
+			<dict>
+				<key>action</key>
+				<string>spindump:</string>
+				<key>imageName</key>
+				<string>spindump.png</string>
+				<key>label</key>
+				<string>Run Spindump</string>
+				<key>paletteLabel</key>
+				<string>Run Spindump</string>
+				<key>toolTip</key>
+				<string>Take a spindump of the system</string>
+			</dict>
+			<key>LSToolbarSystemDiagnose</key>
+			<dict>
+				<key>action</key>
+				<string>sysdiagnose:</string>
+				<key>imageName</key>
+				<string>systemdiagnose.png</string>
+				<key>label</key>
+				<string>System Diagnostics</string>
+				<key>paletteLabel</key>
+				<string>System Diagnostics</string>
+				<key>toolTip</key>
+				<string>System diagnostics options</string>
+				<key>view</key>
+				<string>_toolbarSysDiagnose</string>
+			</dict>
+			<key>LSToolbarFilterItem</key>
+			<dict>
+				<key>minWidth</key>
+				<integer>30</integer>
+				<key>label</key>
+				<string>Filter</string>
+				<key>paletteLabel</key>
+				<string>Filter</string>
+				<key>toolTip</key>
+				<string>Show only processes containing the string specified</string>
+				<key>view</key>
+				<string>_filterTextField</string>
+			</dict>
+			<key>LSToolbarTabs</key>
+			<dict>
+				<key>action</key>
+				<string>sysdiagnose:</string>
+				<key>label</key>
+				<string>View tabs</string>
+				<key>paletteLabel</key>
+				<string>View tabs</string>
+				<key>toolTip</key>
+				<string>View options</string>
+				<key>view</key>
+				<string>_toolbarTabs</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
