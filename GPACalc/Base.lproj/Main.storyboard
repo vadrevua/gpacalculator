@@ -405,6 +405,7 @@
                         <outlet property="course1C" destination="rxg-3v-mJp" id="u1P-l9-8m3"/>
                         <outlet property="course1D" destination="Ifn-tJ-LfV" id="zK9-eB-tcu"/>
                         <outlet property="course1F" destination="uzb-Y9-in5" id="0bR-6y-OD0"/>
+                        <outlet property="course2A" destination="9eX-8U-6kD" id="GcJ-8O-CC7"/>
                         <outlet property="course2B" destination="N7f-qN-Lsw" id="vo2-yX-TJy"/>
                         <outlet property="course2C" destination="jAT-NX-u5V" id="g1u-xL-fjP"/>
                         <outlet property="course2D" destination="PMW-w7-X0C" id="zLb-WD-4Sp"/>
